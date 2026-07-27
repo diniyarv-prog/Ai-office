@@ -1,69 +1,73 @@
 {
   "chat_id": -1004435727191,
+  "version": "2.0",
+  "principle": "departments, not personas",
   "topics": [
     {
-      "name": "🧭 Амин | Сегодня",
-      "ok": true,
-      "desc": null,
+      "name": "🧭 День",
       "message_thread_id": 5,
       "icon_color": 9367192,
+      "purpose": "камень дня, намазы, фокус, один следующий шаг",
+      "edit_ok": true,
       "description_message_ok": true,
-      "description_message_id": 6
+      "description_message_id": 56
     },
     {
-      "name": "💼 Хасан | Работа",
-      "ok": true,
-      "desc": null,
-      "message_thread_id": 7,
-      "icon_color": 13338331,
-      "description_message_ok": true,
-      "description_message_id": 8
-    },
-    {
-      "name": "💰 Малик | Деньги",
-      "ok": true,
-      "desc": null,
+      "name": "💰 Деньги",
       "message_thread_id": 9,
       "icon_color": 16766590,
+      "purpose": "траты, доходы, остатки, вечерняя сверка",
+      "edit_ok": true,
       "description_message_ok": true,
-      "description_message_id": 10
+      "description_message_id": 57
     },
     {
-      "name": "📚 Муса | Учёба/Коран",
-      "ok": true,
-      "desc": null,
+      "name": "💼 Работа",
+      "message_thread_id": 7,
+      "icon_color": 13338331,
+      "purpose": "клиенты, офферы, Avito, упаковка, ответы",
+      "edit_ok": true,
+      "description_message_ok": true,
+      "description_message_id": 58
+    },
+    {
+      "name": "🚀 Проекты",
       "message_thread_id": 11,
       "icon_color": 9367192,
+      "purpose": "TurMed, Quran App, боты, обмен, MVP и ТЗ",
+      "edit_ok": true,
       "description_message_ok": true,
-      "description_message_id": 12
+      "description_message_id": 59
     },
     {
-      "name": "🗄 Умар | База",
-      "ok": true,
-      "desc": null,
+      "name": "🗄 База",
       "message_thread_id": 13,
       "icon_color": 7322096,
+      "purpose": "Notion, документы, заметки, сохранение решений",
+      "edit_ok": true,
       "description_message_ok": true,
-      "description_message_id": 14
+      "description_message_id": 60
     },
     {
-      "name": "👥 Команда",
-      "ok": true,
-      "desc": null,
+      "name": "🧪 Лаборатория",
       "message_thread_id": 15,
       "icon_color": 7322096,
+      "purpose": "эксперименты, исследования, дизайн, код, непонятный хаос",
+      "edit_ok": true,
       "description_message_ok": true,
-      "description_message_id": 16
-    },
+      "description_message_id": 61
+    }
+  ],
+  "removed_or_closed": [
     {
       "name": "🏋️ Халид | Тренер",
       "message_thread_id": 17,
-      "icon_color": 16478047
+      "delete_ok": true
     },
     {
       "name": "🧠 Рашид | Психолог",
       "message_thread_id": 19,
-      "icon_color": 13338331
+      "delete_ok": true
     }
   ]
 }
